@@ -51,7 +51,7 @@ sources:
       # Level 1
       - ../../test/idma_test.sv
       # Level 2
-      - tb_idma_backend_rw_axi_rw_axis.sv
+      #- tb_idma_backend_rw_axi_rw_axis.sv
 
   - target: synthesis
     files:
