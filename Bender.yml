@@ -55,9 +55,9 @@ sources:
   - target: rtl
     files:
       # Level 0
-      - src/midend/idma_mp_dist_midend.sv
-      - src/midend/idma_mp_split_midend.sv
-      - src/midend/idma_nd_midend.sv
+      #- src/midend/idma_mp_dist_midend.sv
+      #- src/midend/idma_mp_split_midend.sv
+      #- src/midend/idma_nd_midend.sv
       - src/midend/idma_rt_midend.sv
 
   # Frontends (without inst64)
