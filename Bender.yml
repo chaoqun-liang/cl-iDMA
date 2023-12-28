@@ -52,8 +52,8 @@ sources:
       - src/future/idma_reg_to_axi.sv
 
   # Midends
-  - target: rtl
-    files:
+  #- target: rtl
+  #  files:
       # Level 0
       #- src/midend/idma_mp_dist_midend.sv
       #- src/midend/idma_mp_split_midend.sv
@@ -61,8 +61,8 @@ sources:
       #- src/midend/idma_rt_midend.sv
 
   # Frontends (without inst64)
-  - target: rtl
-    files:
+  #- target: rtl
+   # files:
       # Level 0
       #- src/frontend/desc64/idma_desc64_ar_gen.sv
       #- src/frontend/desc64/idma_desc64_ar_gen_prefetch.sv
