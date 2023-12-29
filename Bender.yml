@@ -51,6 +51,9 @@ sources:
       - src/future/idma_legalizer_page_splitter.sv
       - src/future/idma_legalizer_pow2_splitter.sv
       - src/future/idma_reg_to_axi.sv
+      - target/rtl/idma_legalizer_rw_axi_rw_axis.sv
+      - target/rtl/idma_transport_layer_rw_axi_rw_axis.sv
+      - target/rtl/idma_backend_rw_axi_rw_axis.sv
 
 
 
