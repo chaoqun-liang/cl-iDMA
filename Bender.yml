@@ -54,26 +54,6 @@ sources:
       - src/backend/idma_tilelink_write.sv
       - src/backend/idma_legalizer_rw_axi_rw_axis.sv
       - src/backend/idma_transport_layer_rw_axi_rw_axis.sv
-      - src/backend/idma_backend_rw_axi_rw_axis.sv
+      - src/backend/eth_idma_backend_rw_axi_rw_axis.sv
 
-  # Testbenches
-  - target: idma_test
-    files:
-      # Level 0
-      - test/idma_intf.sv
-      - test/idma_test.sv
-      # Level 1
-      - test/frontend/tb_idma_desc64_top.sv
-      - test/frontend/tb_idma_desc64_bench.sv
-      - test/future/idma_tb_per2axi.sv
-      - test/future/TLToAXI4.v
-      - test/midend/tb_idma_nd_midend.sv
-      - test/midend/tb_idma_rt_midend.sv
-      # Level 2
-      - test/future/idma_obi2axi_bridge.sv
-      - test/future/idma_tilelink2axi_bridge.sv
 
-  # Generated content
-  - target: idma_test
-    files:
-      - target/rtl/tb_idma_generated.sv

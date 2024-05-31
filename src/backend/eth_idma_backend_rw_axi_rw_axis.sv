@@ -10,7 +10,7 @@
 `include "idma/guard.svh"
 
 /// The iDMA backend implements an arbitrary 1D copy engine
-module idma_backend_rw_axi_rw_axis #(
+module eth_idma_backend_rw_axi_rw_axis #(
     /// Data width
     parameter int unsigned DataWidth        = 32'd16,
     /// Address width
