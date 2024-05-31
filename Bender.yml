@@ -6,7 +6,7 @@
 # - Thomas Benz <tbenz@iis.ee.ethz.ch>
 
 package:
-  name: idma
+  name: cl-idma
   authors:
     - "Thomas Benz <tbenz@iis.ee.ethz.ch>" # current maintainer
     - "Michael Rogenmoser <michaero@iis.ee.ethz.ch>"
