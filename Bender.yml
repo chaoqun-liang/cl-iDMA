@@ -52,13 +52,9 @@ sources:
       - src/backend/idma_obi_write.sv
       - src/backend/idma_tilelink_read.sv
       - src/backend/idma_tilelink_write.sv
-
-  # Generated content
-  - target: rtl
-    files:
-      - target/rtl/idma_legalizer_rw_axi_rw_axis.sv
-      - target/rtl/idma_transport_layer_rw_axi_rw_axis.sv
-      - target/rtl/idma_backend_rw_axi_rw_axis.sv
+      - src/backend/idma_legalizer_rw_axi_rw_axis.sv
+      - src/backend/idma_transport_layer_rw_axi_rw_axis.sv
+      - src/backend/idma_backend_rw_axi_rw_axis.sv
 
   # Midends
   - target: rtl
